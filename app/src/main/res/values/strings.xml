@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textView">Welcome to Poppy. \nYour Fury Friend App!</string>
+    <string name="getStartedButton">Get Started!</string>
+    <string name="cleanButton">Clean</string>
+    <string name="feedButton">Feed</string>
+    <string name="playButton">Play</string>
+    <string name="ImageView">secondScreenWelcome</string>
+</resources>
