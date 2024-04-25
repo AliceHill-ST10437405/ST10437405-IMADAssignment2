@@ -29,6 +29,8 @@
         android:layout_height="wrap_content"
         android:src="#82B1FF"
         android:text="@string/getStartedButton"
+        android:onClick="onButtonClicked"
+        android:enabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.458"

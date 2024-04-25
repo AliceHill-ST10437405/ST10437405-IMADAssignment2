@@ -2,9 +2,9 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import android.view.View as View1
 
 class MainActivity2() : AppCompatActivity() {
 
@@ -22,19 +22,19 @@ class MainActivity2() : AppCompatActivity() {
             val play: Button = findViewById(R.id.playButton)
 
             feed.setOnClickListener(
-                View.OnClickListener() {
+                View1.OnClickListener() {
                     coverImage.setImageResource(R.drawable.download__1_);
                 },
             )
 
             clean.setOnClickListener(
-                View.OnClickListener() {
+                View1.OnClickListener() {
                     coverImage.setImageResource(R.drawable.images__4_);
                 },
             )
 
             play.setOnClickListener(
-                View.OnClickListener() {
+                View1.OnClickListener() {
                     coverImage.setImageResource(R.drawable.download__2_)
                 },
             )
