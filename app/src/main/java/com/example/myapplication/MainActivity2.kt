@@ -8,10 +8,10 @@ import android.widget.ImageView
 
 class MainActivity2() : AppCompatActivity() {
 
-    private fun onClick() {
 
 
-        fun onCreate(savedInstanceState: Bundle?) {
+
+        override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_main2)
 
@@ -42,7 +42,7 @@ class MainActivity2() : AppCompatActivity() {
 
         }
     }
-}
+
 
 
 
