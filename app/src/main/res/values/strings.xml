@@ -7,4 +7,12 @@
     <string name="playButton">Play</string>
     <string name="ImageView">secondScreenWelcome</string>
     <string name="todo">TODO</string>
+    <string name="hungerTextView">Hunger\n</string>
+    <string name="cleanTextView2">Clean</string>
+    <string name="qqq">Playful</string>
+    <string name="hungerEditTextText">Hunger</string>
+    <string name="CleanEditTextText2">Clean</string>
+    <string name="playfulEditTextText3">Playful</string>
+    <string name="playEditTextView3">Play</string>
+    <string name="feedEditTextText">Feed</string>
 </resources>

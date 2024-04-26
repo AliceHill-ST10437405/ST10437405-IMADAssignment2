@@ -10,7 +10,6 @@
 
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="275dp"
         android:layout_height="94dp"
         android:text="@string/textView"
@@ -40,7 +39,6 @@
         app:strokeColor="#B33535" />
 
     <ImageView
-        android:id="@+id/imageView"
         android:layout_width="387dp"
         android:layout_height="515dp"
         app:layout_constraintBottom_toBottomOf="parent"

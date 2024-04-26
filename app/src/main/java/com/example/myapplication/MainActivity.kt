@@ -20,11 +20,13 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
 
+        fun getStartedButton(view: View) {
+            // code to be executed when the button is clicked
         }
 
-    fun onButtonClicked(view: View) {
-        // code to be executed when the button is clicked
-    }
+        }
+
+
 }
 
 
