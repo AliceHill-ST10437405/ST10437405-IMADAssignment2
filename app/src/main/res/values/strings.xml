@@ -15,4 +15,5 @@
     <string name="playfulEditTextText3">Playful</string>
     <string name="playEditTextView3">Play</string>
     <string name="feedEditTextText">Feed</string>
+    <string name="onClick">setOnClickListnener</string>
 </resources>

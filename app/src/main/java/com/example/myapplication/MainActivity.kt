@@ -20,7 +20,8 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
 
-        fun getStartedButton(view: View) {
+
+        fun onButtonClicked(view: View) {
             // code to be executed when the button is clicked
         }
 

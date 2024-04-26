@@ -31,20 +31,27 @@ class MainActivity2() : AppCompatActivity() {
         val cleanButton: Button = findViewById(R.id.cleanButton)
         val playButton: Button = findViewById(R.id.playButton)
 
-
+        //set the onClickListener for feedButton
         feedButton.setOnClickListener {
             pet.feed()
             updatePetStatus()
+            // set the image resource for feedButton
+            coverImage.setImageResource(R.drawable.download__1_)
         }
 
+        //set the onClickListener for cleanButton
         cleanButton.setOnClickListener {
             pet.clean
             updatePetStatus()
+            coverImage.setImageResource(R.drawable.images__4_)
         }
 
+        //set the onClickListener for playButton
         playButton.setOnClickListener {
             pet.play
             updatePetStatus()
+            coverImage.setImageResource(R.drawable.download__2_)
+
         }
     }
 
