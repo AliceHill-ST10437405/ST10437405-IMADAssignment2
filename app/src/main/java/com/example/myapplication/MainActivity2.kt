@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 
+
 class MainActivity2() : AppCompatActivity() {
 
     private lateinit var pet: Pet
@@ -41,15 +42,17 @@ class MainActivity2() : AppCompatActivity() {
 
         //set the onClickListener for cleanButton
         cleanButton.setOnClickListener {
-            pet.clean
+            pet.clean()
             updatePetStatus()
+            // set the image resource for cleanButton
             coverImage.setImageResource(R.drawable.images__4_)
         }
 
         //set the onClickListener for playButton
         playButton.setOnClickListener {
-            pet.play
+            pet.play()
             updatePetStatus()
+            // set the image resource for playButton
             coverImage.setImageResource(R.drawable.download__2_)
 
         }
@@ -57,22 +60,21 @@ class MainActivity2() : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     private fun updatePetStatus() {
-        hungerTextView.text = "feed: ${pet.feed}"
-        cleanTextView2.text = "Clean: ${pet.clean}"
-        playTextView3.text = "Play: ${pet.play}"
+        hungerTextView.text = " ${pet.feed}"
+        cleanTextView2.text = " ${pet.clean}"
+        playTextView3.text = " ${pet.play}"
         coverImage.setImageResource(getPetImageResource())
     }
     private fun getPetImageResource(): Int {
         return when {
-            pet.isFeed() as Boolean -> R.drawable.download__1_
-            pet.isClean() as Boolean -> R.drawable.images__4_
+            pet.isFeed() -> R.drawable.download__1_
+            pet.isClean() -> R.drawable.images__4_
             else -> R.drawable.download__2_
         }
 
 
 
 } }
-
 
 
 

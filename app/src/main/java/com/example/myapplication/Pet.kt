@@ -1,32 +1,30 @@
 package com.example.myapplication
-
 class Pet {
-    var play : String = "10"
-    var clean : String = "5"
-    var feed: String = "4"
-
+    var play : Int = 3
+    var clean : Int = 2
+    var feed: Int = 4
 
     fun feed() {
-        feed += 3
+        feed += 2
     }
 
     fun clean() {
-        clean += 3
+        this.clean += 2
     }
 
     fun play() {
-        play += 3
+        this.play += 2
     }
 
     fun isFeed(): Boolean {
-        return feed > 5.toString()
+        return feed > 5
     }
 
     fun isClean(): Boolean {
-        return clean < 5.toString()
+        return clean < 5
     }
-
-
 }
+
+
 
 

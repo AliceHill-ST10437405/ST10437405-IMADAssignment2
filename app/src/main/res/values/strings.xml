@@ -16,4 +16,8 @@
     <string name="playEditTextView3">Play</string>
     <string name="feedEditTextText">Feed</string>
     <string name="onClick">setOnClickListnener</string>
+    <string name="hint">Enter Hunger level</string>
+    <string name="HungerLevel">Hunger Level</string>
+    <string name="CleanLevel">enterCleanLevel</string>
+    <string name="PlayLevel">playeditTextText3</string>
 </resources>
