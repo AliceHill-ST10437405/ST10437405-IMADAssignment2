@@ -1,5 +1,7 @@
 package com.example.myapplication
 class Pet {
+    data class Pet(var play: Int, var feed: Int, var clean: Int)
+
     var play : Int = 3
     var clean : Int = 2
     var feed: Int = 4

@@ -11,11 +11,13 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity2() : AppCompatActivity() {
 
+
     private lateinit var pet: Pet
     private lateinit var playTextView3: TextView
     private lateinit var cleanTextView2: TextView
     private lateinit var hungerTextView: TextView
     private lateinit var coverImage: ImageView
+    private lateinit var petmanager: PetManager
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +29,9 @@ class MainActivity2() : AppCompatActivity() {
         cleanTextView2 = findViewById(R.id.cleanTextView2)
         hungerTextView = findViewById(R.id.hungerTextView)
         coverImage = findViewById(R.id.coverImage)
+        petmanager = PetManager(pet,this)
+        petmanager.startDecrementing()
+
 
         val feedButton: Button = findViewById(R.id.feedButton)
         val cleanButton: Button = findViewById(R.id.cleanButton)
@@ -58,8 +63,10 @@ class MainActivity2() : AppCompatActivity() {
         }
     }
 
+
+
     @SuppressLint("SetTextI18n")
-    private fun updatePetStatus() {
+    fun updatePetStatus() {
         hungerTextView.text = " ${pet.feed}"
         cleanTextView2.text = " ${pet.clean}"
         playTextView3.text = " ${pet.play}"
@@ -70,11 +77,23 @@ class MainActivity2() : AppCompatActivity() {
             pet.isFeed() -> R.drawable.download__1_
             pet.isClean() -> R.drawable.images__4_
             else -> R.drawable.download__2_
+
         }
+    }}
 
 
 
-} }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
