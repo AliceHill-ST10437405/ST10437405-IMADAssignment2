@@ -118,3 +118,21 @@ The app uses a PetManager class to handle the timer and decrement the pet's stat
 ### Youtube Link
 
 <https://https://youtu.be/odpdFXgoVWw>
+
+### Code Images:
+https://github.com/AliceHill-ST10437405/ST10437405-IMADAssignment2/blob/master/Screenshot%202024-05-02%20112902.png
+
+https://github.com/AliceHill-ST10437405/ST10437405-IMADAssignment2/blob/master/Screenshot%202024-05-02%20112938.png
+
+https://github.com/AliceHill-ST10437405/ST10437405-IMADAssignment2/blob/master/Screenshot%202024-05-02%20113021.png
+
+https://github.com/AliceHill-ST10437405/ST10437405-IMADAssignment2/blob/master/Screenshot%202024-05-02%20112950.png
+
+https://github.com/AliceHill-ST10437405/ST10437405-IMADAssignment2/blob/master/Screenshot%202024-05-02%20113005.png
+
+https://github.com/AliceHill-ST10437405/ST10437405-IMADAssignment2/blob/master/Screenshot%202024-05-02%20113015.png
+
+https://github.com/AliceHill-ST10437405/ST10437405-IMADAssignment2/blob/master/Screenshot%202024-05-02%20113028.png
+
+https://github.com/AliceHill-ST10437405/ST10437405-IMADAssignment2/blob/master/Screenshot%202024-05-02%20113036.png
+
