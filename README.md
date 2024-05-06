@@ -60,7 +60,7 @@ Step 6: Linked the local repository to the Github repository using the command g
 Step 7: Pushed the changes to the Github repository using the command git push -u origin master.
 
 
-I used four images in the app, all obtained from Google:
+
 
 These are the steps I used to obtain and place the dog images:
 
@@ -120,6 +120,9 @@ The app uses a PetManager class to handle the timer and decrement the pet's stat
 <https://https://youtu.be/odpdFXgoVWw>
 
 ### Code Images:
+
+I used four images in the app, all obtained from Google:
+
 https://github.com/AliceHill-ST10437405/ST10437405-IMADAssignment2/blob/master/Screenshot%202024-05-02%20112902.png
 
 https://github.com/AliceHill-ST10437405/ST10437405-IMADAssignment2/blob/master/Screenshot%202024-05-02%20112938.png
